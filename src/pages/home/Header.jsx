@@ -170,8 +170,8 @@ function Header() {
         transition="200ms ease"
       >
         <BoxContent
-          title="Compartilhar"
-          text="Compartilhamos soluções desenvolvidas e lideradas por mulheres."
+          title="Desenvolver"
+          text="Desenvolvemos o potencial feminino, quanto em negócios e tecnologia."
         />
         <Divider
           orientation={["horizontal", "horizontal", "vertical"]}
@@ -196,8 +196,8 @@ function Header() {
           margin={["20px 0", "20px 0", "0 40px"]}
         />
         <BoxContent
-          title="Desenvolver"
-          text="Desenvolvemos o potencial feminino, quanto em negócios e tecnologia."
+          title="Compartilhar"
+          text="Compartilhamos soluções desenvolvidas e lideradas por mulheres."
         />
       </Container>
       <Box
