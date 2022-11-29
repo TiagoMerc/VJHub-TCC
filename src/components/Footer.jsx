@@ -249,7 +249,7 @@ function Footer() {
             elas.ecossistema@gmail.com
           </Text>
           <Box display="flex">
-            <Link href="https://www.instagram.com/elas.ecossistema/">
+            <Link href="https://www.instagram.com/elas.ecossistema/" target="_blank">
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="2x"

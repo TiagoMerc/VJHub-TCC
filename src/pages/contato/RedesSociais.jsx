@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Container, Heading, Image, Text, Link } from "@chakra-ui/react";
 import React from "react";
 import RedesIMG from '../../images/redes.png'
 import InstagramIcon from '../../images/instagram.svg'
@@ -72,11 +72,15 @@ function RedesSociais() {
         alignItems='center'
         gap='20px'
       >
+      <Link 
+        href="https://www.instagram.com/elas.ecossistema/" target="_blank">        
         <Image 
         src={InstagramIcon}
         alt="Icone da rede social Instagram"
         w="27.5px" 
         />
+      </Link>
+        
         {/* <Image 
         src={TikTokIcon}
         alt="Icone da rede social TikTok"

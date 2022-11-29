@@ -7,9 +7,11 @@ import {
   Image,
   Text,
   useBreakpointValue,
+  Link,
 } from "@chakra-ui/react";
 import React from "react";
 import { motion } from "framer-motion";
+import { Link as RouterLink } from "react-router-dom";
 import { MenuMobile, MyMenu } from "../../components";
 import BoxContent from "./BoxContent";
 import logo from "../../images/logo.svg";
@@ -44,7 +46,7 @@ function Header() {
           display="flex"
           alignItems="center"
           padding="30px 0"
-        >
+        > 
           <Image src={logo} alt="Logo" w="51px" h="54px" mr="6.3px" />
           <Box>
             <Heading
@@ -107,7 +109,9 @@ function Header() {
             width="max-content"
             padding="8px 10px 9px 10px"
           >
+          <Link as={RouterLink} to="/contato" padding="8px 26px" _hover="">
             Lançamento em breve
+          </Link>
           </Text>
         </Box>
         <Box
