@@ -17,7 +17,7 @@ import {
   faWhatsapp,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import logo from "../images/logo.svg";
+import VJHub from "../images/VJHub.png";
 
 function Footer() {
   return (
@@ -35,7 +35,7 @@ function Footer() {
       ]}
       mt={["30px", "30px", "30px", "50px"]}
       justifyContent="space-between"
-      bg="#5F40A6"
+      bg="#0DB3C4"
     >
       <Box display="flex" flexDir="column" mb={["30px", "30px", "0"]}>
         <Box display="flex" alignItems="center" justifyContent="space-between">
@@ -48,20 +48,11 @@ function Footer() {
             padding="0"
             mb="10px"
           >
-            <Image src={logo} alt="Logo" w="51px" h="54px" mr="6.3px" />
+            <Image src={VJHub} alt="Logo" w="111px" h="44px" mr="6.3px" />
             <Box>
-              <Heading
-                as="h2"
-                fontSize="24px"
-                textTransform="uppercase"
-                fontWeight="900"
-                color="white"
-                lineHeight="1"
-              >
-                ELAS
-              </Heading>
+              
               <Text fontSize="12px" color="white">
-                Ecossistema de apoio
+                Ecossistema de empreendedorismo
               </Text>
             </Box>
           </Box>
@@ -107,7 +98,7 @@ function Footer() {
             color="white"
             mb="7px"
           >
-            Sobre o hub
+            Sobre o VJhub
           </ListItem>
           <ListItem mb="7px">
             <Link
@@ -160,7 +151,7 @@ function Footer() {
             color="white"
             mb="7px"
           >
-            Dicas pra ELAS!
+            Dicas
           </ListItem>
           <ListItem mb="7px">
             <Link
@@ -246,10 +237,10 @@ function Footer() {
             color="white"
             mb="17px"
           >
-            elas.ecossistema@gmail.com
+            vjhub.empreendedorismo@dominio.com
           </Text>
           <Box display="flex">
-            <Link href="https://www.instagram.com/elas.ecossistema/" target="_blank">
+            <Link href="#" target="_blank">
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="2x"

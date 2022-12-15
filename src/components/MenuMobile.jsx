@@ -15,10 +15,10 @@ function MenuMobile(props) {
   return (
     <Menu>
       <MenuButton
-        bg="#754DD0"
+        bg="#000000"
         color="white"
         as={Button}
-        _expanded={{ bg: "#754DD0" }}
+        _expanded={{ bg: "#000000" }}
         rightIcon={<ChevronDownIcon color="white" />}
         {...props}
       >

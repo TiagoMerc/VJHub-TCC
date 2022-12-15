@@ -29,7 +29,7 @@ function Blog() {
         fontWeight="700"
         fontSize={["4xl", "4xl", "4xl", "40px"]}
         lineHeight={["4xl", "4xl", "4xl", "53px"]}
-        color="#5F40A6"
+        color="#0DB3C4"
         alignSelf={["flex-start"]}
         mb={["30px", "30px", "30px", "40px", "67px"]}
       >
@@ -47,7 +47,7 @@ function Blog() {
       >
         <Artigo
           imagem={artigodestaque}
-          title="Sobre o ELAS"
+          title="Sobre o VJHub"
           maxW="809px"
           gridRow="1/3"
           height="365px"
@@ -56,7 +56,7 @@ function Blog() {
         />
         <Artigo
           imagem={artigo2}
-          title="FemTech"
+          title="Startups"
           w={["45%", "47%", "unset"]}
           maxW="331px"
           gridRow="1/2"
@@ -65,7 +65,7 @@ function Blog() {
         />
         <Artigo
           imagem={artigo3}
-          title="Metodologia"
+          title="Empreendedorismo"
           w={["45%", "47%", "100%"]}
           maxW="331px"
           gridRow="2/3"
@@ -77,7 +77,7 @@ function Blog() {
         mt={["30px", "30px", "30px", "50px", "70px"]}
         borderRadius="0"
         color="white"
-        bg="#FE5996"
+        bg="#000000"
         _hover={{ bg: "#FE5996" }}
         fontWeight="700"
         fontSize="24px"

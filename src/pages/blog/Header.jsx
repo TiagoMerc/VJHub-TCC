@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { MyMenu, MenuMobile } from "../../components";
-import Logo from "../../images/logo.svg";
+import VJHub from "../../images/VJHub.png";
 import ImageHeader from "../../images/blogheader.png";
 
 function Header() {
@@ -35,7 +35,7 @@ function Header() {
         "40px 100px 0 100px",
         "60px 186px 0 135px",
       ]}
-      bg="#5F40A6"
+      bg="#0DB3C4"
     >
       {isMobile ? <MenuMobile mb="20px" maxW="100px" /> : <MyMenu />}
       <Box
@@ -59,9 +59,9 @@ function Header() {
           transition="200ms ease"
         >
           <Image
-            src={Logo}
-            w="85px"
-            h="90px"
+            src={VJHub}
+            w="111px"
+            h="45px"
             mr="25px"
             display={["none", "block"]}
           />
@@ -80,12 +80,12 @@ function Header() {
                 textUnderlineOffset: "6px",
               }}
             >
-              BLOG PRA ELAS
+              BLOG PRA VJHub
             </Highlight>
           </Heading>
         </Box>
         <Box
-          bg="#754DD0"
+          bg="#FFFFFF"
           alignSelf={["center", "center", "flex-end"]}
           w={["80%", "300px", "385px"]}
           h={["150px", "250px", "260px", "306px"]}

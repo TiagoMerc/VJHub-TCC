@@ -6,13 +6,13 @@ function BoxContent({ title, text }) {
   return (
     <Box display="flex" flexDir="column">
       <Box display="flex" alignItems="center" marginBottom="13px">
-        <IconButton bg="#5F40A6" size="sm" marginRight="3px" />
+        <IconButton bg="#0DB3C4" size="sm" marginRight="3px" />
         <Heading
           as="h3"
           fontWeight="700"
           fontSize="24px"
           lineHeight="32px"
-          color="#5F40A6"
+          color="#0DB3C4"
         >
           {title}
         </Heading>

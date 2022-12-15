@@ -18,11 +18,11 @@ function Post() {
             fontWeight="500"
             textTransform="uppercase"
             fontSize="16px"
-            color="#5F40A6"
+            color="#0DB3C4"
           >
             Categoria 2
           </Link>
-          <Text textTransform="uppercase" fontSize="16px" color="#5F40A6">
+          <Text textTransform="uppercase" fontSize="16px" color="#0DB3C4">
             22 DE NOV
           </Text>
         </Box>
@@ -31,13 +31,12 @@ function Post() {
           mt="14px"
           fontWeight="700"
           fontSize="26px"
-          color="#5F40A6"
+          color="#0DB3C4"
         >
-          FemTech
+          Startups
         </Link>
-        <Text mt="14px" size="lg" color="#5F40A6" textAlign="justify">
-        São empresas — geralmente startups — que por meio da tecnologia procuram resolver 
-        problemas relativos ao universo feminino ou facilitar o dia a dia das mulheres.
+        <Text mt="14px" size="lg" color="#0DB3C4" textAlign="justify">
+        São empresas que nascem em torno de uma ideia diferente, escalável e em condições de extrema incerteza.
         </Text>
       </Box>
     </Box>

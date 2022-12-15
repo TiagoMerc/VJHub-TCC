@@ -23,7 +23,7 @@ function EntendaMelhor() {
     >
       <Heading
         as="h2"
-        color="#5F40A6"
+        color="#0DB3C4"
         mb="30px"
         fontWeight="700"
         fontSize={["3xl", "4xl", "4xl", "40px"]}
@@ -36,7 +36,7 @@ function EntendaMelhor() {
         h="365px"
         display="grid"
         placeItems="center"
-        bg="#5F40A6"
+        bg="#0DB3C4"
         borderRadius="14px"
       >
         <FontAwesomeIcon

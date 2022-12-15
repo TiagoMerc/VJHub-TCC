@@ -17,19 +17,19 @@ function CategoriasBox() {
         fontWeight="700"
         fontSize="26px"
         lineHeight="30px"
-        color="#5F40A6"
+        color="#0DB3C4"
         mb="24px"
       >
         Categorias
       </Heading>
       <UnorderedList listStyleType="none" margin="0">
-        <ListItem paddingBottom="4px" borderBottom="1px solid #9C79F280">
+        <ListItem paddingBottom="4px" borderBottom="1px solid #0DB3C4">
           <Link
             href="#categoria"
             fontWeight="500"
             fontSize="18px"
             lineHeight="21px"
-            color="#5F40A6"
+            color="#0DB3C4"
             _hover={{ textDecoration: "none" }}
           >
             Categoria 1
@@ -38,7 +38,7 @@ function CategoriasBox() {
         <ListItem
           mt="19px"
           paddingBottom="4px"
-          borderBottom="1px solid #9C79F280"
+          borderBottom="1px solid #0DB3C4"
         >
           <Link
             href="#categoria"
@@ -46,7 +46,7 @@ function CategoriasBox() {
             fontWeight="500"
             fontSize="18px"
             lineHeight="21px"
-            color="#5F40A6"
+            color="#0DB3C4"
             _hover={{ textDecoration: "none" }}
           >
             Categoria 2
@@ -55,7 +55,7 @@ function CategoriasBox() {
         <ListItem
           mt="19px"
           paddingBottom="4px"
-          borderBottom="1px solid #9C79F280"
+          borderBottom="1px solid #0DB3C4"
         >
           <Link
             href="#categoria"
@@ -63,7 +63,7 @@ function CategoriasBox() {
             fontWeight="500"
             fontSize="18px"
             lineHeight="21px"
-            color="#5F40A6"
+            color="#0DB3C4"
             _hover={{ textDecoration: "none" }}
           >
             Categoria 3
@@ -72,7 +72,7 @@ function CategoriasBox() {
         <ListItem
           mt="19px"
           paddingBottom="4px"
-          borderBottom="1px solid #9C79F280"
+          borderBottom="1px solid #0DB3C4"
         >
           <Link
             href="#categoria"
@@ -80,7 +80,7 @@ function CategoriasBox() {
             fontWeight="500"
             fontSize="18px"
             lineHeight="21px"
-            color="#5F40A6"
+            color="#0DB3C4"
             _hover={{ textDecoration: "none" }}
           >
             Categoria 4
@@ -89,7 +89,7 @@ function CategoriasBox() {
         <ListItem
           mt="19px"
           paddingBottom="4px"
-          borderBottom="1px solid #9C79F280"
+          borderBottom="1px solid #0DB3C4"
         >
           <Link
             href="#categoria"
@@ -97,7 +97,7 @@ function CategoriasBox() {
             fontWeight="500"
             fontSize="18px"
             lineHeight="21px"
-            color="#5F40A6"
+            color="#0DB3C4"
             _hover={{ textDecoration: "none" }}
           >
             Categoria 5
@@ -106,7 +106,7 @@ function CategoriasBox() {
         <ListItem
           mt="19px"
           paddingBottom="4px"
-          borderBottom="1px solid #9C79F280"
+          borderBottom="1px solid #0DB3C4"
         >
           <Link
             href="#categoria"
@@ -114,7 +114,7 @@ function CategoriasBox() {
             fontWeight="500"
             fontSize="18px"
             lineHeight="21px"
-            color="#5F40A6"
+            color="#0DB3C4"
             _hover={{ textDecoration: "none" }}
           >
             Categoria 6
@@ -123,7 +123,7 @@ function CategoriasBox() {
         <ListItem
           mt="19px"
           paddingBottom="4px"
-          borderBottom="1px solid #9C79F280"
+          borderBottom="1px solid #0DB3C4"
         >
           <Link
             href="#categoria"
@@ -131,7 +131,7 @@ function CategoriasBox() {
             fontWeight="500"
             fontSize="18px"
             lineHeight="21px"
-            color="#5F40A6"
+            color="#0DB3C4"
             _hover={{ textDecoration: "none" }}
           >
             Categoria 7
@@ -140,7 +140,7 @@ function CategoriasBox() {
         <ListItem
           mt="19px"
           paddingBottom="4px"
-          borderBottom="1px solid #9C79F280"
+          borderBottom="1px solid #0DB3C4"
         >
           <Link
             href="#categoria"
@@ -148,7 +148,7 @@ function CategoriasBox() {
             fontWeight="500"
             fontSize="18px"
             lineHeight="21px"
-            color="#5F40A6"
+            color="#0DB3C4"
             _hover={{ textDecoration: "none" }}
           >
             Categoria 8

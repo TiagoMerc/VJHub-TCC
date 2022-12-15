@@ -17,7 +17,7 @@ function TopPostsBox() {
         fontSize="26px"
         lineHeight="30px"
         mb="28px"
-        color="#5F40A6"
+        color="#0DB3C4"
       >
         Top posts
       </Heading>
@@ -26,7 +26,7 @@ function TopPostsBox() {
           fontWeight="700"
           fontSize="35px"
           lineHeight="41px"
-          color="#5F40A6"
+          color="#0DB3C4"
         >
           1
         </Text>
@@ -36,7 +36,7 @@ function TopPostsBox() {
             fontWeight="500"
             fontSize="22px"
             lineHeight="23px"
-            color="#5F40A6"
+            color="#0DB3C4"
             mb="6px"
             _hover={{ textDecoration: "none" }}
           >
@@ -49,7 +49,7 @@ function TopPostsBox() {
               fontSize="14px"
               lineHeight="16px"
               textTransform="uppercase"
-              color="#5F40A6"
+              color="#0DB3C4"
               _hover={{ textDecoration: "none" }}
             >
               Categoria 1
@@ -59,10 +59,10 @@ function TopPostsBox() {
               fontSize="14px"
               lineHeight="16px"
               textTransform="uppercase"
-              color="#5F40A6"
+              color="#0DB3C4"
               ml="5px"
             >
-              - 16 de maio
+              - 15 de dezembro
             </Text>
           </Box>
         </Box>
@@ -72,7 +72,7 @@ function TopPostsBox() {
           fontWeight="700"
           fontSize="35px"
           lineHeight="41px"
-          color="#5F40A6"
+          color="#0DB3C4"
         >
           1
         </Text>
@@ -82,7 +82,7 @@ function TopPostsBox() {
             fontWeight="500"
             fontSize="22px"
             lineHeight="23px"
-            color="#5F40A6"
+            color="#0DB3C4"
             mb="6px"
             _hover={{ textDecoration: "none" }}
           >
@@ -95,7 +95,7 @@ function TopPostsBox() {
               fontSize="14px"
               lineHeight="16px"
               textTransform="uppercase"
-              color="#5F40A6"
+              color="#0DB3C4"
               _hover={{ textDecoration: "none" }}
             >
               Categoria 1
@@ -105,10 +105,10 @@ function TopPostsBox() {
               fontSize="14px"
               lineHeight="16px"
               textTransform="uppercase"
-              color="#5F40A6"
+              color="#0DB3C4"
               ml="5px"
             >
-              - 16 de maio
+              - 15 de dezembro
             </Text>
           </Box>
         </Box>
@@ -118,7 +118,7 @@ function TopPostsBox() {
           fontWeight="700"
           fontSize="35px"
           lineHeight="41px"
-          color="#5F40A6"
+          color="#0DB3C4"
         >
           1
         </Text>
@@ -128,7 +128,7 @@ function TopPostsBox() {
             fontWeight="500"
             fontSize="22px"
             lineHeight="23px"
-            color="#5F40A6"
+            color="#0DB3C4"
             mb="6px"
             _hover={{ textDecoration: "none" }}
           >
@@ -141,7 +141,7 @@ function TopPostsBox() {
               fontSize="14px"
               lineHeight="16px"
               textTransform="uppercase"
-              color="#5F40A6"
+              color="#0DB3C4"
               _hover={{ textDecoration: "none" }}
             >
               Categoria 1
@@ -151,10 +151,10 @@ function TopPostsBox() {
               fontSize="14px"
               lineHeight="16px"
               textTransform="uppercase"
-              color="#5F40A6"
+              color="#0DB3C4"
               ml="5px"
             >
-              - 16 de maio
+              - 15 de dezembro
             </Text>
           </Box>
         </Box>
@@ -164,7 +164,7 @@ function TopPostsBox() {
           fontWeight="700"
           fontSize="35px"
           lineHeight="41px"
-          color="#5F40A6"
+          color="#0DB3C4"
         >
           1
         </Text>
@@ -174,7 +174,7 @@ function TopPostsBox() {
             fontWeight="500"
             fontSize="22px"
             lineHeight="23px"
-            color="#5F40A6"
+            color="#0DB3C4"
             mb="6px"
             _hover={{ textDecoration: "none" }}
           >
@@ -187,7 +187,7 @@ function TopPostsBox() {
               fontSize="14px"
               lineHeight="16px"
               textTransform="uppercase"
-              color="#5F40A6"
+              color="#0DB3C4"
               _hover={{ textDecoration: "none" }}
             >
               Categoria 1
@@ -197,10 +197,10 @@ function TopPostsBox() {
               fontSize="14px"
               lineHeight="16px"
               textTransform="uppercase"
-              color="#5F40A6"
+              color="#0DB3C4"
               ml="5px"
             >
-              - 16 de maio
+              - 15 de dezembro
             </Text>
           </Box>
         </Box>

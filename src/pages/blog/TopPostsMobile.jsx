@@ -7,9 +7,9 @@ function TopPostsMobile() {
     <Menu>
       <MenuButton
         as={Button}
-        rightIcon={<ChevronDownIcon color="#5F40A6" />}
+        rightIcon={<ChevronDownIcon color="#0DB3C4" />}
         bg="#EBEBEB80"
-        color="#5F40A6"
+        color="#0DB3C4"
       >
         Top Posts
       </MenuButton>

@@ -14,8 +14,9 @@ import { motion } from "framer-motion";
 import { Link as RouterLink } from "react-router-dom";
 import { MenuMobile, MyMenu } from "../../components";
 import BoxContent from "./BoxContent";
-import logo from "../../images/logo.svg";
-import woman from "../../images/woman.png";
+import VJHub from "../../images/VJHub.png";
+// eslint-disable-next-line camelcase
+import mapa_mgValeJequitinhonha1 from "../../images/mapa_mgValeJequitinhonha1.png";
 
 function Header() {
   const isMobile = useBreakpointValue({
@@ -27,14 +28,14 @@ function Header() {
     "2xl": false,
   });
 
-  return (
+  return (  
     <Container
       as="header"
-      padding={["10px 10px", "10px 30px", "10px 80px", "10px 130px"]}
+      padding={["10px 10px", "10px 30px", "10px 80px", "0px 130px"]}
       maxW="100vw"
       display="flex"
       flexDir="column"
-      bg="#5F40A6"
+      bg="#0DB3C4"
       borderRadius="0px 0px 186px 186px"
       position="relative"
       zIndex="auto"
@@ -47,22 +48,8 @@ function Header() {
           alignItems="center"
           padding="30px 0"
         > 
-          <Image src={logo} alt="Logo" w="51px" h="54px" mr="6.3px" />
-          <Box>
-            <Heading
-              as="h2"
-              fontSize="24px"
-              textTransform="uppercase"
-              fontWeight="900"
-              color="white"
-              lineHeight="1"
-            >
-              Elas
-            </Heading>
-            <Text fontSize="12px" color="white">
-              Ecossistema de apoio
-            </Text>
-          </Box>
+         <Image src={VJHub} alt="Logo" w="166px" h="52px" mr="6.4px" />
+         
         </Box>
         {isMobile ? <MenuMobile /> : <MyMenu />}
       </Box>
@@ -90,33 +77,33 @@ function Header() {
         >
           <Heading
             fontWeight="700"
-            fontSize={["3xl", "3xl", "3xl", "3xl", "36px"]}
-            lineHeight={["3xl", "3xl", "3xl", "3xl", "64px"]}
+            fontSize={["3xl", "3xl", "3xl", "3xl", "42px"]}
+            lineHeight={["3xl", "3xl", "2xl", "3xl", "54px"]}
             color="white"
             mb={["10px", "20px", "5px", "30px"]}
             as="h1"
           >
             <Highlight query="text lorem" styles={{ color: "#FE5996" }}>
-            Hub de promoção da cultura empreendedora e tecnológica para o público feminino.
+            Ecossistema de inovação voltado para o desenvolvimento do Vale do Jequitinhonha
             </Highlight>
           </Heading>
           <Text
             fontWeight="700"
             fontSize={["xl", "xl", "xl", "xl", "24px"]}
             lineHeight={["xl", "xl", "xl", "xl", "29px"]}
-            bg="#FE5996"
+            bg="#000000"
             color="white"
             width="max-content"
             padding="8px 10px 9px 10px"
           >
           <Link as={RouterLink} to="/contato" padding="8px 26px" _hover="">
-            Lançamento em breve
+          UFVJM
           </Link>
           </Text>
         </Box>
         <Box
           ml={["0", "0", "60px", "100px", "180px", "400px"]}
-          bg="#754DD0"
+          bg="#FFFFFF"
           borderRadius="45px"
           maxW={["250px", "250px", "unset"]}
           w={("250px", "250px", "385px")}
@@ -134,11 +121,12 @@ function Header() {
           transition="200ms ease"
         >
           <Image
-            src={woman}
-            alt="Woman"
+            // eslint-disable-next-line camelcase
+            src={mapa_mgValeJequitinhonha1}
+            alt="Mapa do Vale do Jequitinhonha MG"
             position="absolute"
             maxW={["300px", "300px", "400px", "400px", "627px"]}
-            h={["218px", "218px", "291px", "291px", "456px"]}
+            h={["218px", "218px", "291px", "291px", "365px"]}
             top={["0px", "32px", "39px"]}
             as={motion.img}
             drag="x"
@@ -173,35 +161,35 @@ function Header() {
         }}
         transition="200ms ease"
       >
-        <BoxContent
-          title="Desenvolver"
-          text="Desenvolvemos o potencial feminino, quanto em negócios e tecnologia."
+        <BoxContent 
+          title="Universidade" 
+          text="Podem se destacar como centros de excelência, ao oferecer uma base de talentos." 
         />
         <Divider
           orientation={["horizontal", "horizontal", "vertical"]}
-          borderColor="#5F40A6"
+          borderColor="#0DB3C4"
           height={["1px", "1px", "150px"]}
           width={["90%", "90%", "1px"]}
-          bg="#5F40A6"
+          bg="#0DB3C4"
           opacity=".6"
           margin={["20px 0", "20px 0", "0 40px"]}
         />
         <BoxContent
-          title="Impulsionar"
-          text="Impulsionamos startups e mulheres empreendedoras."
+          title="Empresa"
+          text="Acesso ao mercado como uma rede de oprtunidade. "
         />
         <Divider
           orientation={["horizontal", "horizontal", "vertical"]}
-          borderColor="#5F40A6"
+          borderColor="#0DB3C4"
           height={["1px", "1px", "150px"]}
           width={["90%", "90%", "1px"]}
-          bg="#5F40A6"
+          bg="#0DB3C4"
           opacity=".6"
           margin={["20px 0", "20px 0", "0 40px"]}
         />
-        <BoxContent
-          title="Compartilhar"
-          text="Compartilhamos soluções desenvolvidas e lideradas por mulheres."
+        <BoxContent 
+          title="Governo"
+          text="O principal papel é oferecer e criar um ambiente regulatório e seguro."
         />
       </Container>
       <Box
@@ -214,7 +202,7 @@ function Header() {
         transform="rotate(-2deg)"
         borderRadius="0px 0px 210px 270px"
         height="600px"
-        bg="#5F40A6"
+       
       />
     </Container>
   );

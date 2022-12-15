@@ -24,7 +24,7 @@ function PostSpecial() {
       <Link
         href="#categoria"
         padding="5px"
-        bg="#5F40A6B2"
+        bg="#0DB3C4"
         borderRadius="4px"
         w="98px"
         mt="20px"
@@ -41,21 +41,21 @@ function PostSpecial() {
         flexDir={["column", "column", "row"]}
       >
         <Link
-          color="#5F40A6"
+          color="#0DB3C4"
           as="h3"
           fontWeight="700"
           fontSize="32px"
           lineHeight="43px"
           href="#artigo"
         >
-          Sobre o ELAs
+          Sobre o VJHub
         </Link>
         <Box display="flex" gap="15px">
-          <Text color="#5F40A6" fontWeight="700" size="sm">
-            22/11/2022
+          <Text color="#0DB3C4" fontWeight="700" size="sm">
+            15/12/2022
           </Text>
-          <Text color="#5F40A6" fontWeight="700" size="sm">
-            18:00
+          <Text color="#0DB3C4" fontWeight="700" size="sm">
+            00:30
           </Text>
         </Box>
       </Box>

@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 import MenuMobile from "../../components/MenuMobile";
 import MyMenu from "../../components/MyMenu";
 
-import logo from "../../images/logo.svg";
+import VJHub from "../../images/VJHub.png";
 import Ballon from "../../images/Ballon.png";
 
 function Header() {
@@ -32,7 +32,7 @@ function Header() {
       maxW="100vw"
       display="flex"
       flexDir="column"
-      bg="#5F40A6"
+      bg="#0DB3C4"
       borderRadius="0px 0px 186px 186px"
       position="relative"
       zIndex="auto"
@@ -46,22 +46,8 @@ function Header() {
           alignItems="center"
           padding="30px 0"
         >
-          <Image src={logo} alt="Logo" w="51px" h="54px" mr="6.3px" />
-          <Box>
-            <Heading
-              as="h2"
-              fontSize="24px"
-              textTransform="uppercase"
-              fontWeight="900"
-              color="white"
-              lineHeight="1"
-            >
-              Elas
-            </Heading>
-            <Text fontSize="12px" color="white">
-              Ecossistema de apoio
-            </Text>
-          </Box>
+          <Image src={VJHub} alt="Logo" w="111px" h="44px" mr="6.3px" />
+         
         </Box>
         {mobile ? <MenuMobile /> : <MyMenu />}
       </Box>
@@ -106,14 +92,14 @@ function Header() {
             mb={["10px", "20px", "5px", "30px"]}
             as="h1"
           >
-            <Highlight query="contato" styles={{ color: "#FE5996" }}>
+            <Highlight query="contato" styles={{ color: "#0000000" }}>
               Entre em contato
             </Highlight>
           </Heading>
         </Box>
         <Box
           ml={["0", "0", "60px", "100px", "180px", "400px"]}
-          bg="#754DD0"
+          bg="#FFFFFF"
           borderRadius="45px"
           maxW={["250px", "250px", "unset"]}
           w={("250px", "250px", "385px")}
@@ -145,18 +131,6 @@ function Header() {
         </Box>
       </Container>
 
-      <Box
-        display={["none", "none", "none", "none", "block"]}
-        position="absolute"
-        left="-25px"
-        bottom="-50px"
-        zIndex="-1"
-        w="100vw"
-        transform="rotate(-2deg)"
-        borderRadius="0px 0px 210px 270px"
-        height="600px"
-        bg="#5F40A6"
-      />
     </Container>
   );
 }

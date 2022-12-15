@@ -35,7 +35,7 @@ function SectionForms() {
         flexDir="column"
       >
         <Heading
-          color="#5F40A6"
+          color="#0DB3C4"
           mb="12px"
           fontWeight="700"
           fontSize={["4xl", "4xl", "4xl", "40px"]}
@@ -44,7 +44,7 @@ function SectionForms() {
           Entre em contato <br /> para tirar suas dúvidas
         </Heading>
         <Text
-          color="#5F40A6"
+          color="#000000"
           fontWeight="400"
           fontSize={["md", "md", "md", "16px"]}
           lineHeight={["md", "md", "md", "32px"]}
@@ -74,11 +74,11 @@ function SectionForms() {
               placeholder="Digite seu nome"
               _hover={{ borderWidth: "2px" }}
               _focus={{
-                borderColor: "#5F40A6",
+                borderColor: "#0DB3C4",
                 borderWidth: "2px",
                 outline: "none",
               }}
-              borderColor="#5F40A6"
+              borderColor="#0DB3C4"
             />
           </Box>
           <Box>
@@ -87,27 +87,27 @@ function SectionForms() {
               maxW={["100%", "100%", "100%", "800px"]}
               _hover={{ borderWidth: "2px" }}
               _focus={{
-                borderColor: "#5F40A6",
+                borderColor: "#0DB3C4",
                 borderWidth: "2px",
                 outline: "none",
               }}
               placeholder="Digite seu email"
-              borderColor="#5F40A6"
+              borderColor="#0DB3C4"
               type="email"
             />
           </Box>
           <Box>
-            <FormLabel>De onde você conheceu ELAS?</FormLabel>
+            <FormLabel>De onde você conheceu o VJHub?</FormLabel>
             <Input
               _hover={{ borderWidth: "2px" }}
               _focus={{
-                borderColor: "#5F40A6",
+                borderColor: "#0DB3C4",
                 borderWidth: "2px",
                 outline: "none",
               }}
               maxW={["100%", "100%", "100%", "800px"]}
               placeholder="Digite seu texto"
-              borderColor="#5F40A6"
+              borderColor="#0DB3C4"
             />
           </Box>
           <Box>
@@ -115,16 +115,16 @@ function SectionForms() {
             <Textarea
               _hover={{ borderWidth: "2px" }}
               _focus={{
-                borderColor: "#5F40A6",
+                borderColor: "#0DB3C4",
                 borderWidth: "2px",
                 outline: "none",
               }}
-              borderColor="#5F40A6"
+              borderColor="#0DB3C4"
               placeholder="Digite o assunto do seu texto"
               size="sm"
             />
           </Box>
-          <Button backgroundColor="#5F40A6" colorScheme="none" size="lg">
+          <Button backgroundColor="#0DB3C4" colorScheme="none" size="lg">
             Enviar
           </Button>
         </FormControl>

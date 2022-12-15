@@ -31,7 +31,7 @@ function RedesSociais() {
       flexDir="column"
     >
       <Heading
-        color="#5F40A6"
+        color="#0DB3C4"
         mb="12px"
         fontWeight="700"
         fontSize={["4xl", "4xl", "4xl", "40px"]}
@@ -40,12 +40,12 @@ function RedesSociais() {
         Ou acesse o nosso <br/>Instagram
       </Heading>
       <Text
-        color="#5F40A6"
+        color="#0DB3C4"
         fontWeight="400"
         fontSize={["md", "md", "md", "16px"]}
         lineHeight={["md", "md", "md", "32px"]}
         mr={["0", "0", "0", "132px"]}
-        textAlign="justify"
+        textAlign="left"
         mb="30px"
       >
        Estamos no Instagram para que você participe e esteja próxima do Ecossistema. 
@@ -73,7 +73,7 @@ function RedesSociais() {
         gap='20px'
       >
       <Link 
-        href="https://www.instagram.com/elas.ecossistema/" target="_blank">        
+        href="#" target="_blank">        
         <Image 
         src={InstagramIcon}
         alt="Icone da rede social Instagram"

@@ -29,7 +29,7 @@ function ComoFunciona() {
     >
       <Heading
         as="h2"
-        color="#5F40A6"
+        color="#0DB3C4"
         mb="30px"
         fontWeight="700"
         fontSize={["4xl", "4xl", "4xl", "40px"]}
@@ -38,12 +38,12 @@ function ComoFunciona() {
         Como funciona
       </Heading>
       <Accordion allowToggle>
-        <AccordionItem borderRadius="16px" mb="35px" bg="#5F40A6">
+        <AccordionItem borderRadius="16px" mb="35px" bg="#0DB3C4">
           <h3>
             <AccordionButton
-              bg="#9C79F2"
+              bg="#0DB3C4"
               borderRadius="16px"
-              _expanded={{ bg: "#5F40A6" }}
+              _expanded={{ bg: "#0DB3C4" }}
             >
               <AccordionIcon mr="21px" color="white" />
               <Box
@@ -54,7 +54,7 @@ function ComoFunciona() {
                 lineHeight={["md", "md", "md", "32px"]}
                 color="white"
               >
-                Tecnologia
+                Missão 
               </Box>
             </AccordionButton>
           </h3>
@@ -65,17 +65,16 @@ function ComoFunciona() {
             lineHeight={["md", "md", "md", "32px"]}
             color="white"
           >
-            Apoio, desenvolvimento e manutenção de negócios usando tecnologia como instrumento.
-
+            Promover a cultura empreendedora, desenvolver soluções utilizando tecnologia e manter negócios nas mesorregiões do Jequitinhonha.
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem borderRadius="16px" mb="35px" bg="#5F40A6">
+        <AccordionItem borderRadius="16px" mb="35px" bg="#0DB3C4">
           <h3>
             <AccordionButton
-              bg="#9C79F2"
+              bg="#0DB3C4"
               borderRadius="16px"
-              _expanded={{ bg: "#5F40A6" }}
+              _expanded={{ bg: "#0DB3C4" }}
             >
               <AccordionIcon mr="21px" color="white" />
               <Box
@@ -86,7 +85,7 @@ function ComoFunciona() {
                 lineHeight={["md", "md", "md", "32px"]}
                 color="white"
               >
-                Ecossistema
+                Visão
               </Box>
             </AccordionButton>
           </h3>
@@ -97,19 +96,16 @@ function ComoFunciona() {
             lineHeight={["md", "md", "md", "32px"]}
             color="white"
           >
-            O hub de inovação tem o foco de impulsionar negócios inovadores. As atividades são direcionadas 
-            ao público da região de Diamantina, de modo a gerar inovação por meio de uma rede integrada com a realidade local.
-            Quando startups/mulheres participam do hub de inovação, elas vão está em contato diretamente com os demais agentes do ecossistema local.
-             São empresas de médio e grande porte, investidores, além de instituições de ensino e profissionais especialistas em diversas frentes.
+           Criar um ecossistema tecnológico e de inovação para apoiar iniciativas na UFVJM, governo e empresas.
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem borderRadius="16px" mb="35px" bg="#5F40A6">
+        <AccordionItem borderRadius="16px" mb="35px" bg="#0DB3C4">
           <h3>
             <AccordionButton
-              bg="#9C79F2"
+              bg="#0DB3C4"
               borderRadius="16px"
-              _expanded={{ bg: "#5F40A6" }}
+              _expanded={{ bg: "#0DB3C4" }}
             >
               <AccordionIcon mr="21px" color="white" />
               <Box
@@ -120,7 +116,7 @@ function ComoFunciona() {
                 lineHeight={["md", "md", "md", "32px"]}
                 color="white"
               >
-                Interação
+                Código de Conduta
               </Box>
             </AccordionButton>
           </h3>
@@ -131,7 +127,8 @@ function ComoFunciona() {
             lineHeight={["md", "md", "md", "32px"]}
             color="white"
           >
-            Ampliação de oportunidades com a interação dos atores da Tríplice Hélice, com governo, empresas e universidade.
+          Estabelece regras de conduta para evitar situações que possam pôr em dúvida a legalidade e honestidade do hub ou dxs seus/suas colaboradorxs. 
+          Dessa forma, direcionando para ações empresariais íntegras, corretas e responsáveis conforme o nosso propósito.     
           </AccordionPanel>
         </AccordionItem>
       </Accordion>

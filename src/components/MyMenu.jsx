@@ -23,7 +23,7 @@ function MyMenu() {
           fontSize="20px"
           lineHeight="27px"
           color="white"
-          _hover={{ color: "#FE5996" }}
+          _hover={{ color: "#000000" }}
         >
           {title}
         </Link>

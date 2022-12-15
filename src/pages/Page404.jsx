@@ -12,7 +12,7 @@ import {
 import { Link as RouterLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Footer, MenuMobile, MyMenu } from "../components";
-import logo from "../images/logo.svg";
+import VJHub from "../images/VJHub.png";
 
 function Page404() {
   const isMobile = useBreakpointValue({
@@ -39,7 +39,7 @@ function Page404() {
         maxW="100vw"
         display="flex"
         flexDir="column"
-        bg="#5F40A6"
+        bg="#0DB3C4"
         position="relative"
         zIndex="auto"
       >
@@ -51,22 +51,7 @@ function Page404() {
             alignItems="center"
             padding="30px 0"
           >
-            <Image src={logo} alt="Logo" w="51px" h="54px" mr="6.3px" />
-            <Box>
-              <Heading
-                as="h2"
-                fontSize="24px"
-                textTransform="uppercase"
-                fontWeight="900"
-                color="white"
-                lineHeight="1"
-              >
-                Elas
-              </Heading>
-              <Text fontSize="12px" color="white">
-                Ecossistema de apoio
-              </Text>
-            </Box>
+            <Image src={VJHub} alt="Logo" w="111px" h="44px" mr="6.3px" />
           </Box>
           {isMobile ? <MenuMobile /> : <MyMenu />}
         </Box>
@@ -89,14 +74,14 @@ function Page404() {
           as="h2"
           fontSize={["80px", "120px"]}
           fontWeight="700"
-          color="#5F40A6"
+          color="#0DB3C4"
         >
           Ooops!
         </Heading>
         <Text
           fontSize={["12px", "17px"]}
           fontWeight="700"
-          color="#5F40A6"
+          color="#"
           alignSelf="flex-start"
           mt="-20px"
           ml={["5px", "13px"]}
@@ -107,8 +92,8 @@ function Page404() {
           mt={["30px", "30px", "30px", "30px", "40px"]}
           borderRadius="0"
           color="white"
-          bg="#FE5996"
-          _hover={{ bg: "#FE5996" }}
+          bg="#000000"
+          _hover={{ bg: "#0DB3C4" }}
           fontWeight="700"
           fontSize="24px"
           lineHeight="29px"

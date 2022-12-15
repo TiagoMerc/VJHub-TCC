@@ -33,14 +33,14 @@ function Lateral() {
     >
       <InputGroup>
         <InputRightElement pointerEvents="none">
-          <SearchIcon color="#5F40A6" />
+          <SearchIcon color="#0DB3C4" />
         </InputRightElement>
         <Input
           type="text"
           placeholder="Pesquise aqui"
           bg="#EBEBEB80"
-          color="#5F40A6"
-          _placeholder={{ color: "#5F40A6" }}
+          color="#0DB3C4"
+          _placeholder={{ color: "#0DB3C4" }}
         />
       </InputGroup>
       <Box
