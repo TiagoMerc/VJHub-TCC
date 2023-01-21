@@ -7,9 +7,9 @@ import { Link as RouterLink } from "react-router-dom";
 function MenuMobile(props) {
   const pages = [
     { title: "Início", link: "/" },
-    { title: "Quem Somos", link: "/quem-somos" },
-    { title: "Contato", link: "/contato" },
-    { title: "Blog", link: "/blog" },
+   // { title: "Quem Somos", link: "/quem-somos" },
+   // { title: "Contato", link: "/contato" },
+    { title: "Ecossistema", link: "/Ecossistema" },
   ];
 
   return (

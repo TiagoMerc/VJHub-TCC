@@ -3,7 +3,7 @@ import { Footer } from "../../components";
 import Header from "./Header";
 import Posts from "./Posts";
 
-function Blog() {
+function Ecossistema() {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Ecossistema;

@@ -1,12 +1,12 @@
-# Projeto Elas - Ecossitema de apoio
+# VJHub - TCC
 
 ## Descrição do projeto 📚
 <p align="justify">
-O projeto é realizado na disciplina de Tópicos II do curso Sistemas de Informação da UFVJM. Consistem em uma página para apresentar informações a respeito do grupo "Elas - Ecossitema de apoio".
+Ecossistema de inovação voltado para o desenvolvimento do Vale do Jequitinhonha
 </p>
 
 ## Acesso
-Para visualizar o projeto acesse: https://joyful-kitten-24461a.netlify.app/
+Para visualizar o projeto acesse: https://vjhub-tcc-ufvjm.netlify.app/
 
 ## Tecnologias 🛠
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -28,6 +28,6 @@ $ npm install
 $ npm run dev
 ```
 
-## Autores 🧑‍💼
-| [<img src="https://avatars.githubusercontent.com/u/58155483?v=4" width=115><br><sub>Ulisses Brandão</sub>](https://github.com/Ulisses97) | [<img src="https://avatars.githubusercontent.com/u/71729281?v=4" width=115><br><sub>Tiago Mercês</sub>](https://github.com/TiagoMerc) | [<img src="https://avatars.githubusercontent.com/u/69551648?v=4" width=115><br><sub>Vinícius Soares de Paula Souza</sub>](https://github.com/Vsspaulasouza) |
+## Autor 🧑‍💼
+[<img src="https://avatars.githubusercontent.com/u/71729281?v=4" width=115><br><sub>Tiago Mercês</sub>](https://github.com/TiagoMerc)
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |

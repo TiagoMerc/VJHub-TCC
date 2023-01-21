@@ -42,13 +42,13 @@ function PostSpecial() {
       >
         <Link
           color="#0DB3C4"
-          as="h3"
+          //as="h3"
           fontWeight="700"
           fontSize="32px"
           lineHeight="43px"
-          href="#artigo"
+          href="https://publications.iadb.org/pt/ecossistema-de-startups-no-brasil-estudo-de-caracterizacao-do-ecossistema-de-empreendedorismo-de" target="_blank"
         >
-          Sobre o VJHub
+          Mapeamento VJHub
         </Link>
         <Box display="flex" gap="15px">
           <Text color="#0DB3C4" fontWeight="700" size="sm">

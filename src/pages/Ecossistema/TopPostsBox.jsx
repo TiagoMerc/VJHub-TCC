@@ -19,7 +19,7 @@ function TopPostsBox() {
         mb="28px"
         color="#0DB3C4"
       >
-        Top posts
+        Eventos
       </Heading>
       <Box display="flex">
         <Text
@@ -40,7 +40,7 @@ function TopPostsBox() {
             mb="6px"
             _hover={{ textDecoration: "none" }}
           >
-            Post mais acessado com ótima rentenção
+            UaiDev
           </Link>
           <Box display="flex">
             <Link
@@ -52,7 +52,7 @@ function TopPostsBox() {
               color="#0DB3C4"
               _hover={{ textDecoration: "none" }}
             >
-              Categoria 1
+              UFVJM
             </Link>
             <Text
               fontWeight="400"
@@ -62,7 +62,7 @@ function TopPostsBox() {
               color="#0DB3C4"
               ml="5px"
             >
-              - 15 de dezembro
+              - 22 de novembro
             </Text>
           </Box>
         </Box>
@@ -74,7 +74,7 @@ function TopPostsBox() {
           lineHeight="41px"
           color="#0DB3C4"
         >
-          1
+          2
         </Text>
         <Box display="flex" flexDir="column" ml="20px">
           <Link
@@ -86,7 +86,7 @@ function TopPostsBox() {
             mb="6px"
             _hover={{ textDecoration: "none" }}
           >
-            Post mais acessado com ótima rentenção
+            DevWeekend
           </Link>
           <Box display="flex">
             <Link
@@ -98,7 +98,7 @@ function TopPostsBox() {
               color="#0DB3C4"
               _hover={{ textDecoration: "none" }}
             >
-              Categoria 1
+              UFVJM
             </Link>
             <Text
               fontWeight="400"
@@ -108,7 +108,7 @@ function TopPostsBox() {
               color="#0DB3C4"
               ml="5px"
             >
-              - 15 de dezembro
+              - 02 de dezembro
             </Text>
           </Box>
         </Box>
@@ -120,7 +120,7 @@ function TopPostsBox() {
           lineHeight="41px"
           color="#0DB3C4"
         >
-          1
+          3
         </Text>
         <Box display="flex" flexDir="column" ml="20px">
           <Link
@@ -132,7 +132,7 @@ function TopPostsBox() {
             mb="6px"
             _hover={{ textDecoration: "none" }}
           >
-            Post mais acessado com ótima rentenção
+            Startup Weekend
           </Link>
           <Box display="flex">
             <Link
@@ -144,7 +144,7 @@ function TopPostsBox() {
               color="#0DB3C4"
               _hover={{ textDecoration: "none" }}
             >
-              Categoria 1
+              UFVJM
             </Link>
             <Text
               fontWeight="400"
@@ -154,7 +154,7 @@ function TopPostsBox() {
               color="#0DB3C4"
               ml="5px"
             >
-              - 15 de dezembro
+              - 15 de maio
             </Text>
           </Box>
         </Box>
@@ -166,7 +166,7 @@ function TopPostsBox() {
           lineHeight="41px"
           color="#0DB3C4"
         >
-          1
+          4
         </Text>
         <Box display="flex" flexDir="column" ml="20px">
           <Link
@@ -178,7 +178,7 @@ function TopPostsBox() {
             mb="6px"
             _hover={{ textDecoration: "none" }}
           >
-            Post mais acessado com ótima rentenção
+            Expert XP
           </Link>
           <Box display="flex">
             <Link
@@ -190,7 +190,7 @@ function TopPostsBox() {
               color="#0DB3C4"
               _hover={{ textDecoration: "none" }}
             >
-              Categoria 1
+              XP
             </Link>
             <Text
               fontWeight="400"
@@ -200,9 +200,58 @@ function TopPostsBox() {
               color="#0DB3C4"
               ml="5px"
             >
-              - 15 de dezembro
+              - 16 de maio
             </Text>
           </Box>
+          
+        </Box>
+      </Box>
+
+      <Box display="flex" mt="28px">
+        <Text
+          fontWeight="700"
+          fontSize="35px"
+          lineHeight="41px"
+          color="#0DB3C4"
+        >
+          5
+        </Text>
+        <Box display="flex" flexDir="column" ml="20px">
+          <Link
+            href="#post"
+            fontWeight="500"
+            fontSize="22px"
+            lineHeight="23px"
+            color="#0DB3C4"
+            mb="6px"
+            _hover={{ textDecoration: "none" }}
+          >
+            CASE | Abstartups
+          </Link>
+          <Box display="flex">
+            <Link
+              href="#categoria"
+              fontWeight="400"
+              fontSize="14px"
+              lineHeight="16px"
+              textTransform="uppercase"
+              color="#0DB3C4"
+              _hover={{ textDecoration: "none" }}
+            >
+              Abstartups
+            </Link>
+            <Text
+              fontWeight="400"
+              fontSize="14px"
+              lineHeight="16px"
+              textTransform="uppercase"
+              color="#0DB3C4"
+              ml="5px"
+            >
+              - 16 de maio
+            </Text>
+          </Box>
+          
         </Box>
       </Box>
     </Box>

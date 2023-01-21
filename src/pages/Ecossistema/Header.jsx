@@ -80,7 +80,7 @@ function Header() {
                 textUnderlineOffset: "6px",
               }}
             >
-              BLOG PRA VJHub
+              Ecossistema 
             </Highlight>
           </Heading>
         </Box>

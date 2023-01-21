@@ -96,7 +96,7 @@ function Header() {
             width="max-content"
             padding="8px 10px 9px 10px"
           >
-          <Link as={RouterLink} to="/contato" padding="8px 26px" _hover="">
+          <Link href="https://portal.ufvjm.edu.br/" target="_black" padding="8px 26px" _hover="">
           UFVJM
           </Link>
           </Text>
@@ -162,7 +162,7 @@ function Header() {
         transition="200ms ease"
       >
         <BoxContent 
-          title="Universidade" 
+          title="Universidades" 
           text="Podem se destacar como centros de excelência, ao oferecer uma base de talentos." 
         />
         <Divider
@@ -175,8 +175,8 @@ function Header() {
           margin={["20px 0", "20px 0", "0 40px"]}
         />
         <BoxContent
-          title="Empresa"
-          text="Acesso ao mercado como uma rede de oprtunidade. "
+          title="Empresas"
+          text="Oferecem acesso ao mercado como uma rede de oportunidade. "
         />
         <Divider
           orientation={["horizontal", "horizontal", "vertical"]}
@@ -189,7 +189,7 @@ function Header() {
         />
         <BoxContent 
           title="Governo"
-          text="O principal papel é oferecer e criar um ambiente regulatório e seguro."
+          text="Devem oferecer um ambiente favorável e seguro."
         />
       </Container>
       <Box
@@ -202,7 +202,6 @@ function Header() {
         transform="rotate(-2deg)"
         borderRadius="0px 0px 210px 270px"
         height="600px"
-       
       />
     </Container>
   );

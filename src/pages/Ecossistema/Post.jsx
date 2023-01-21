@@ -2,9 +2,15 @@ import { Box, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import imagem from "../../images/artigo2.png";
 
+<Text textTransform="uppercase" fontSize="16px" color="#0DB3C4">
+22 DE NOV
+</Text>
 function Post() {
+ 
   return (
+       
     <Box display="flex" flexDir="column">
+      
       <Image src={imagem} maxW="100%" />
       <Box
         display="flex"

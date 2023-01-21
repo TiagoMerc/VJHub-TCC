@@ -5,9 +5,9 @@ import { Link as RouterLink, useLocation } from "react-router-dom";
 function MyMenu() {
   const pages = [
     { title: "Início", link: "/" },
-    { title: "Quem Somos", link: "/quem-somos" },
-    { title: "Contato", link: "/contato" },
-    { title: "Blog", link: "/blog" },
+  //  { title: "Quem Somos", link: "/quem-somos" },
+  //  { title: "Contato", link: "/contato" },
+    { title: "Ecossistema", link: "/Ecossistema" },
   ];
 
   const { pathname } = useLocation();

@@ -156,13 +156,13 @@ function Footer() {
           <ListItem mb="7px">
             <Link
               as={RouterLink}
-              to="/blog"
+              to="/Ecossistema"
               _hover=""
               fontSize={["md", "md", "md", "20px"]}
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
-              Nosso Blog
+              Nosso Ecossitema
             </Link>
           </ListItem>
           <ListItem mb="7px">

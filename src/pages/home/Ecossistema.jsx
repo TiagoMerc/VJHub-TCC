@@ -7,7 +7,7 @@ import artigodestaque from "../../images/artigodestaque.png";
 import artigo2 from "../../images/artigo2.png";
 import artigo3 from "../../images/artigo3.png";
 
-function Blog() {
+function Ecossistema() {
   return (
     <Container
       as="section"
@@ -33,7 +33,7 @@ function Blog() {
         alignSelf={["flex-start"]}
         mb={["30px", "30px", "30px", "40px", "67px"]}
       >
-        Blog
+        Ecossistema
       </Heading>
       <Box
         display={["flex", "flex", "grid"]}
@@ -86,7 +86,7 @@ function Blog() {
         whileHover={{ scale: 1.1 }}
         padding="0"
       >
-        <Link as={RouterLink} to="/blog" padding="8px 26px" _hover="">
+        <Link as={RouterLink} to="/Ecossistema" padding="8px 26px" _hover="">
           Ver mais
         </Link>
       </Button>
@@ -94,4 +94,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Ecossistema;

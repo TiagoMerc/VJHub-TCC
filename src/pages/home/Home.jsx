@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import Blog from "./Blog";
+import Ecossistema from "./Ecossistema";
 import Oquee from "./Oquee";
 import ComoFunciona from "./ComoFunciona";
 import EntendaMelhor from "./EntendaMelhor";
@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <Header />
-      <Blog />
+      <Ecossistema />
       <Oquee />
       <ComoFunciona />
       <EntendaMelhor />

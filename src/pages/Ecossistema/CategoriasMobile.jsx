@@ -11,32 +11,29 @@ function CategoriasMobile() {
         bg="#EBEBEB80"
         color="#0DB3C4"
       >
-        Categorias
+        Atores
       </MenuButton>
       <MenuList>
         <MenuItem as="a" href="#categoria">
-          Categoria 1
+          Cultura
         </MenuItem>
         <MenuItem as="a" href="#categoria">
-          Categoria 2
+          Densidade
         </MenuItem>
         <MenuItem as="a" href="#categoria">
-          Categoria 3
+          Acesso a capital
         </MenuItem>
         <MenuItem as="a" href="#categoria">
-          Categoria 4
+          Ambiente regulatório
         </MenuItem>
         <MenuItem as="a" href="#categoria">
-          Categoria 5
+          Talentos
         </MenuItem>
         <MenuItem as="a" href="#categoria">
-          Categoria 6
+          Acesso a mercado
         </MenuItem>
         <MenuItem as="a" href="#categoria">
-          Categoria 7
-        </MenuItem>
-        <MenuItem as="a" href="#categoria">
-          Categoria 8
+          Diversidade
         </MenuItem>
       </MenuList>
     </Menu>
