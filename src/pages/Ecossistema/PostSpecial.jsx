@@ -42,7 +42,7 @@ function PostSpecial() {
       >
         <Link
           color="#0DB3C4"
-          //as="h3"
+          as="h3"
           fontWeight="700"
           fontSize="32px"
           lineHeight="43px"

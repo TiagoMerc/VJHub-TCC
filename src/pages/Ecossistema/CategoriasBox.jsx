@@ -56,7 +56,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            UaiDev, CASE, Conferências, semanas de atividades, palestras, encontros, rede de divulgação e outros eventos. 
+            UaiDev, CASE, Conferências, palestras, encontros, rede de divulgação e outros eventos. 
 
           </AccordionPanel>
         </AccordionItem>
@@ -88,7 +88,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-           CITEC, centros de inovação e o ICET.
+           CITEC, apoio jurídico/contábil, programas de mentoria, SEBRAE centros de inovação e ICET.
           </AccordionPanel>
         </AccordionItem>
 
@@ -182,7 +182,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            UFVJM, IFNMG, UEMG e outras. 
+            UFVJM, IFNMG, UEMG , SENAI e outras. 
 
           </AccordionPanel>
         </AccordionItem>
@@ -213,7 +213,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            Empresas de grande e médio porte, já consolidadas no mercado. Usiminas, AngloAmerican e outras
+            Grandes corporações: Usiminas, AngloAmerican, Itambé e outras
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem borderRadius="16px" mb="35px">
@@ -243,7 +243,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            LGBTQIA+, PCDs, 50+ e outros.
+            LGBTQIA+, PCDs, 50+, mulheres, negros(as) e outros.
 
           </AccordionPanel>
         </AccordionItem>

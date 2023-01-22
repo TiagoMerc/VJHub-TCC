@@ -44,7 +44,7 @@ function TopPostsBox() {
           </Link>
           <Box display="flex">
             <Link
-              href="#categoria"
+              href="https://instagram.com/uaidevmg?igshid=MDM4ZDc5MmU="
               fontWeight="400"
               fontSize="14px"
               lineHeight="16px"
@@ -182,7 +182,7 @@ function TopPostsBox() {
           </Link>
           <Box display="flex">
             <Link
-              href="#categoria"
+              href="https://www.expertxp.com.br/"
               fontWeight="400"
               fontSize="14px"
               lineHeight="16px"
@@ -230,7 +230,7 @@ function TopPostsBox() {
           </Link>
           <Box display="flex">
             <Link
-              href="#categoria"
+              href="https://case.abstartups.com.br/sobre/" target="_blank"
               fontWeight="400"
               fontSize="14px"
               lineHeight="16px"

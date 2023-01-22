@@ -96,7 +96,7 @@ function ComoFunciona() {
             lineHeight={["md", "md", "md", "32px"]}
             color="white"
           >
-           Criar um ecossistema tecnológico e de inovação para apoiar iniciativas na UFVJM, governo e empresas.
+           Criar um ecossistema tecnológico e de inovação na UFVJM, com o apoio do governo e empresas.
           </AccordionPanel>
         </AccordionItem>
 
