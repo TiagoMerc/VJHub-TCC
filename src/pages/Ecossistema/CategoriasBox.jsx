@@ -77,7 +77,7 @@ function CategoriasBox() {
                 lineHeight={["md", "md", "md", "32px"]}
                 color="#0DB3C4"
               >
-                Densidade
+                Densidade 
               </Box>
             </AccordionButton>
           </h3>
@@ -232,7 +232,7 @@ function CategoriasBox() {
                 lineHeight={["md", "md", "md", "32px"]}
                 color="#0DB3C4"
               >
-                Diversidade
+                Diversidade e impacto
               </Box>
             </AccordionButton>
           </h3>

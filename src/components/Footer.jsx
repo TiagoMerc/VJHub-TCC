@@ -51,9 +51,6 @@ function Footer() {
             <Image src={VJHub} alt="Logo" w="111px" h="44px" mr="6.3px" />
             <Box>
               
-              <Text fontSize="12px" color="white">
-                Ecossistema de empreendedorismo
-              </Text>
             </Box>
           </Box>
         </Box>
@@ -162,7 +159,7 @@ function Footer() {
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
-              Nosso Ecossitema
+              Nosso Ecossistema
             </Link>
           </ListItem>
           <ListItem mb="7px">

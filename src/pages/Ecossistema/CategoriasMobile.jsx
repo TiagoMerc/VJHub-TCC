@@ -33,7 +33,7 @@ function CategoriasMobile() {
           Acesso a mercado
         </MenuItem>
         <MenuItem as="a" href="#categoria">
-          Diversidade
+          Diversidade e impacto
         </MenuItem>
       </MenuList>
     </Menu>
