@@ -189,7 +189,7 @@ function Header() {
         />
         <BoxContent 
           title="Governo"
-          text="Devem oferecer um ambiente favorável e seguro."
+          text="Devem oferecer um ambiente favorável e seguro para os empreendedores."
         />
       </Container>
       <Box
