@@ -95,7 +95,7 @@ function Footer() {
             color="white"
             mb="7px"
           >
-            Sobre o VJhub
+            Sobre o VJHub
           </ListItem>
           <ListItem mb="7px">
             <Link
