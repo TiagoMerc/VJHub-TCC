@@ -45,7 +45,7 @@ function Oquee() {
         >
             <Text fontWeight="700" color="#0DB3C4" fontSize="26px">Vale do Jequitinhonha</Text>
             O Vale do Jequitinhonha, localizado na região nordeste de Minas Gerais, abrange 55 municípios divididos em 3
-             microrregiões: alto, médio e baixo Jequitinhonha. É um grande território, representando 14% do estado de MG. 
+             microrregiões: Alto, Médio e Baixo Jequitinhonha. É um grande território, representando 14% do estado de MG. 
              Ao longo desse território, o exuberante rio Jequitinhonha, com seus 50 mil Km2, se faz presente.
               Mais de 1 milhão de pessoas habitam a região, grande parte dessas em zona rural.
            
@@ -55,7 +55,7 @@ function Oquee() {
             <Text fontWeight="300" color="#FFFFFF" fontSize="10px">a</Text> 
             Todo este território traz uma grande diversidade cultural, climática e geográfica que tornam a região potencial para a criação de 
             negócios.
-            Contudo, significativa parcela das cidades enfrentam grandes desafios socio-econômicos que para serem vencidos dependem de fatores 
+            Contudo, significativa parcela das cidades enfrentam grandes desafios socioeconômicos que para serem vencidos dependem de fatores 
             diversos, de políticas públicas, de disposição e de investimentos. Desafios que podem ser mitigados com os esforços e ação de 
             empreendedores.
         </Text>

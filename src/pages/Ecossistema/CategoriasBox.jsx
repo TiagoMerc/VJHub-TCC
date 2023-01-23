@@ -56,7 +56,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            UaiDev, CASE, Conferências, palestras, encontros, rede de divulgação e outros eventos. 
+            UaiDev, CASE, DiamondValley, Conferências, palestras, encontros, rede de divulgação e outros eventos. 
 
           </AccordionPanel>
         </AccordionItem>
