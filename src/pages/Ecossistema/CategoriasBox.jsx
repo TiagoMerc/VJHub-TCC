@@ -56,7 +56,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            UaiDev, CASE, DiamondValley, Conferências, palestras, encontros, rede de divulgação e outros eventos. 
+            UaiDev e DiamondValley 
 
           </AccordionPanel>
         </AccordionItem>
@@ -88,7 +88,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-           CITEC, apoio jurídico/contábil, programas de mentoria, SEBRAE centros de inovação e ICET.
+           CITEC, Decom, UEMG e SEBRAE
           </AccordionPanel>
         </AccordionItem>
 
@@ -119,7 +119,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-          Investidores, venture capital, crowdfunding, investimento anjo e outros.
+          FAPEMIG e Banco Santander
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem borderRadius="16px" mb="35px">
@@ -149,7 +149,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            Governo Federal, Estadual e Municipal de cada uma das cidades envolvidas. 
+            Governo Federal, Estadual e Municipal
 
           </AccordionPanel>
         </AccordionItem>
@@ -182,7 +182,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            UFVJM, IFNMG, UEMG , SENAI e outras. 
+            UFVJM, IFNMG, UEMG e SENAI
 
           </AccordionPanel>
         </AccordionItem>
@@ -213,7 +213,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            Grandes corporações: Usiminas, AngloAmerican, Itambé e outras
+            Sigma Lithium, Aperam, Herculano Mineração e Jequitinhonha Alimentos
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem borderRadius="16px" mb="35px">
@@ -243,7 +243,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            LGBTQIA+, PCDs, 50+, mulheres, negros(as) e outros.
+            Halla Produções, Rede Mulheres do Alto Jequitinhonha, ELAS Ecossistema de Apoio e CER
 
           </AccordionPanel>
         </AccordionItem>

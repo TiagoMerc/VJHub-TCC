@@ -20,6 +20,7 @@ function Oquee() {
         "0 170px 30px 170px",
       ]}
     >
+      
       <Box
         maxW={["100%", "90%", "100%", "800px"]}
         display="flex"
@@ -68,7 +69,11 @@ function Oquee() {
           textAlign="justify"
           mb="10px"
         >
-          
+        <Image
+        src={imgoquee}
+        alt="Regão do Vale do Jequitinhonha"
+        alignSelf={["center", "center", "center", "unset"]}
+        /> 
            <Text fontWeight="700" fontSize="26px" color="#0DB3C4">Propósito</Text> O VJHub é um hub de promoção da cultura empreendedora e tecnológica. 
            Dessa forma, nosso propósito é desenvolver tecnologias, criar conexões, impulsionar novos negócios, oportunizar a empregabilidade e liderança. 
         </Text>
@@ -79,17 +84,16 @@ function Oquee() {
           lineHeight={["md", "md", "md", "32px"]}
           mr={["0", "0", "0", "132px"]}
           textAlign="justify"
+          alt="Imagem do Vale do Jequitinhonha - "
           mb="10px"
         >
-          <Text fontWeight="700" fontSize="26px" color="#0DB3C4" textAlign="left">O que é um hub de inovação e como participar</Text> Os hubs de inovação se caracterizam como 
-          ambientes físicos ou virtuais onde pessoas de diversos meios se encontram para estabelecer conexões e gerar negócios.
-          <Text fontWeight="0" color="#FFFFFF" fontSize="0px">a</Text> 
+          <Text fontWeight="700" fontSize="26px" color="#0DB3C4" textAlign="left">O que é um hub de inovação e como participar</Text> Hubs de inovação se configuram como ambientes físicos ou virtuais
+           onde diversas pessoas se encontram para estabelecer conexões e gerar negócios. A composição de um hub acontece por meio da atração de empreendedores com ideias inovadoras, que possam se
+            transformar em startups (empresas escaláveis).
+          <Text fontWeight="0" color="#FFFFFF" fontSize="5px">a</Text> 
 
-          A formação de um hub de negócios acontece por meio da atração de empreendedores com ideias inovadoras, que possam se transformar em empresas de rápido
-           crescimento (startups).
-           <Text fontWeight="300" color="#FFFFFF" fontSize="0px">a</Text> 
-          Quando participam de hubs de inovação, as startups estão em contato direto com os demais agentes do ecossistema local. São empresas de médio e grande porte, 
-          investidores, além de instituições de ensino e profissionais especialistas em diversas frentes. 
+           Ao participarem desses ambientes, as startups estão em contato direto com os demais agentes do ecossistema local, 
+           como empresas de médio e grande porte, investidores, além de instituições de ensino e profissionais especialistas em diversas frentes.
         </Text>
        
         <Text
@@ -101,21 +105,13 @@ function Oquee() {
           textAlign="justify"
           mb="10px"
         >
-          
-           <Text fontWeight="700" fontSize="26px" color="#0DB3C4" textAlign="left">Desenvolvimeto do ecossistema de inovação</Text> Ao ter a chance de se conectar com empresas 
-           estabelecidas e investidores, as startups podem apresentar as soluções que desenvolvem e captar os recursos financeiros necessários para viabilização do
-            negócio.
-            <Text fontWeight="300" color="#FFFFFF" fontSize="0px">a</Text> 
-          Além disso, as pessoas que fazem parte do hub colaboram na criação de produtos e serviços, praticando inovação aberta e fortalecendo a cultura empreendedora da região.
-        </Text>
+          <Text fontWeight="700" fontSize="26px" color="#0DB3C4" textAlign="left">Desenvolvimeto do ecossistema de inovação</Text> Conectar com empresas estabelecidas no mercado e investidores, 
+           as startups podem apresentar as soluções que resolvam algum problema que faz parte da tese de investimento de alguns investidores, e assim captar os recursos financeiros necessários para promover a viabilização do negócio.
+          <Text fontWeight="300" color="#FFFFFF" fontSize="10px">a</Text> 
+            Como também, as pessoas que fazem parte do hub colaboram na criação de produtos e serviços, praticanm a inovação aberta e fortalecem a cultura empreendedora da região.        </Text>
 
       </Box>
-      <Image
-        src={imgoquee}
-        alt="Regão do Vale do Jequitinhonha"
-        alignSelf={["center", "center", "center", "unset"]}
-      />
-      
+    
     </Container>
   );
 }
