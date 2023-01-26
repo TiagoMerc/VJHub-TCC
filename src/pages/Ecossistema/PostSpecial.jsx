@@ -43,7 +43,6 @@ function PostSpecial() {
       >
         <Link
           color="#0DB3C4"
-          as="h3"
           fontWeight="700"
           fontSize="32px"
           lineHeight="43px"
@@ -91,12 +90,12 @@ function PostSpecial() {
         flexDir={["column", "column", "row"]}
       >
         <Link
+          href="https://abstartups.com.br/" target="_blank"
           color="#0DB3C4"
-          as="h3"
           fontWeight="700"
           fontSize="32px"
           lineHeight="43px"
-          href="https://abstartups.com.br/" target="_blank"
+          
         >
           O que é empreendedorismo
         </Link>

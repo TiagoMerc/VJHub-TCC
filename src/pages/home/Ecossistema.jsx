@@ -24,6 +24,7 @@ function Ecossistema() {
       ]}
       margin="0"
     >
+      
       <Heading
         as="h2"
         fontWeight="700"
@@ -34,7 +35,10 @@ function Ecossistema() {
         mb={["30px", "30px", "30px", "40px", "67px"]}
       >
         Ecossistema
+        
       </Heading>
+      <Link as={RouterLink} to="/Ecossistema" padding="8px 26px" _hover="">
+
       <Box
         display={["flex", "flex", "grid"]}
         flexWrap="wrap"
@@ -45,6 +49,7 @@ function Ecossistema() {
         columnGap="24px"
         rowGap="46px"
       >
+        
         <Artigo
           imagem={artigodestaque}
           title="Sobre o VJHub"
@@ -73,6 +78,7 @@ function Ecossistema() {
           alignSelf={["center", "center", "end"]}
         />
       </Box>
+      </Link> 
       <Button
         mt={["30px", "30px", "30px", "50px", "70px"]}
         borderRadius="0"
@@ -90,7 +96,9 @@ function Ecossistema() {
           Ver mais
         </Link>
       </Button>
+      
     </Container>
+ 
   );
 }
 

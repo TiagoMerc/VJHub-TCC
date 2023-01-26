@@ -23,7 +23,7 @@ function TopPostsMobile() {
         <MenuItem as="a" href="#post">
           Startup Weekend
         </MenuItem>
-        <MenuItem as="a" href="https://www.expertxp.com.br/" target="_blank">
+        <MenuItem as="a" href="https://conteudos.xpi.com.br/expert/" target="_blank">
           Expert XP
         </MenuItem>
         <MenuItem as="a" href="https://case.abstartups.com.br/sobre/" target="_blank">

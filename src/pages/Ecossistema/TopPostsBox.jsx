@@ -32,7 +32,7 @@ function TopPostsBox() {
         </Text>
         <Box display="flex" flexDir="column" ml="20px">
           <Link
-            href="#post"
+            href="https://instagram.com/uaidevmg?igshid=MDM4ZDc5MmU=" target="_blank"
             fontWeight="500"
             fontSize="22px"
             lineHeight="23px"
@@ -44,7 +44,7 @@ function TopPostsBox() {
           </Link>
           <Box display="flex">
             <Link
-              href="https://instagram.com/uaidevmg?igshid=MDM4ZDc5MmU="
+              href="https://instagram.com/uaidevmg?igshid=MDM4ZDc5MmU=" target="_blank"
               fontWeight="400"
               fontSize="14px"
               lineHeight="16px"
@@ -170,7 +170,7 @@ function TopPostsBox() {
         </Text>
         <Box display="flex" flexDir="column" ml="20px">
           <Link
-            href="#post"
+            href="https://conteudos.xpi.com.br/expert/" target="_blank"
             fontWeight="500"
             fontSize="22px"
             lineHeight="23px"
@@ -182,7 +182,7 @@ function TopPostsBox() {
           </Link>
           <Box display="flex">
             <Link
-              href="https://www.expertxp.com.br/"
+              href="https://conteudos.xpi.com.br/expert/" target="_blank"
               fontWeight="400"
               fontSize="14px"
               lineHeight="16px"
@@ -218,7 +218,7 @@ function TopPostsBox() {
         </Text>
         <Box display="flex" flexDir="column" ml="20px">
           <Link
-            href="#post"
+            href="#https://case.abstartups.com.br/sobre/" target="_blank"
             fontWeight="500"
             fontSize="22px"
             lineHeight="23px"
