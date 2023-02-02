@@ -127,7 +127,7 @@ function ComoFunciona() {
             lineHeight={["md", "md", "md", "32px"]}
             color="white"
           >
-          Estabelece regras de conduta para evitar situações que possam pôr em dúvida a legalidade e honestidade do hub ou dxs seus/suas colaboradorxs. 
+          Estabelece regras de conduta para evitar situações que possam pôr em dúvida a legalidade e honestidade do hub ou de seus colaboradores. 
           Dessa forma, direcionando para ações empresariais íntegras, corretas e responsáveis conforme o nosso propósito.     
           </AccordionPanel>
         </AccordionItem>

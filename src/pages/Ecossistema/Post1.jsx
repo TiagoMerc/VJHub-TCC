@@ -1,6 +1,6 @@
 import { Box, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
-import imagem from "../../images/Logo_vertical_Azul.png";
+import imagem from "../../images/ELAS_Ecossistema_de_Apoio.png";
 
 <Text textTransform="uppercase" fontSize="16px" color="#0DB3C4">
 22 DE NOV
@@ -20,29 +20,29 @@ function Post() {
       >
         <Box display="flex" justifyContent="space-between" alignItems="center">
           <Link
-            href="https://logoaliapp.com.br/" target="_blank"
+            href="https://elasecossistemadeapoio.netlify.app/" target="_blank"
             fontWeight="500"
             textTransform="uppercase"
             fontSize="16px"
             color="#0DB3C4"
           >
-            Retailtech
+            Hub
           </Link>
           <Text textTransform="uppercase" fontSize="16px" color="#0DB3C4">
             2023
           </Text>
         </Box>
         <Link
-          href="https://logoaliapp.com.br/" target="_blank"
+          href="https://elasecossistemadeapoio.netlify.app/" target="_blank"
           mt="14px"
           fontWeight="700"
           fontSize="26px"
           color="#0DB3C4"
         >
-          Logo Ali
+          ELAS Ecossistema de apoio
         </Link>
         <Text mt="14px" size="lg" color="#0DB3C4" textAlign="justify">
-      O marketplace ideal para você que gosta de comprar em sua cidade e sem sair de casa.
+        Hub de promoção da cultura empreendedora e tecnológica para o público feminino.
         </Text>
       </Box>
     </Box>

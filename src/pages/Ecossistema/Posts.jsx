@@ -1,8 +1,9 @@
 import React from "react";
-import { Box, Container } from "@chakra-ui/react";
+import { Box, Container, Text } from "@chakra-ui/react";
 import Lateral from "./Lateral";
 import PostSpecial from "./PostSpecial";
 import Post from "./Post";
+import Post1 from "./Post1";
 
 function Posts() {
   return (
@@ -29,6 +30,7 @@ function Posts() {
         w={["100%", "100%", "100%", "100%", "60%"]}
       >
         <PostSpecial />
+        <Text  fontWeight="700" fontSize="32px" color="#0DB3C4" textAlign="left" lineHeight="22px" marginTop="42px"> Portifólio de Startups</Text>
         <Box
           display="grid"
           mt="100px"
@@ -36,10 +38,10 @@ function Posts() {
           rowGap="70px"
           columnGap="28px"
         >
+        
           <Post />
-          <Post />
-          <Post />
-          <Post />
+         
+        <Post1 />
         </Box>
       </Box>
     </Container>
