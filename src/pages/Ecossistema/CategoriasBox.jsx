@@ -213,7 +213,7 @@ function CategoriasBox() {
             lineHeight={["md", "md", "md", "32px"]}
             color="#0DB3C4"
           >
-            Sigma Lithium, Aperam, Herculano Mineração e Jequitinhonha Alimentos
+            Sigma Lithium, Aperam, Herculano Mineração, PetroCity e Jequitinhonha Alimentos
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem borderRadius="16px" mb="35px">
